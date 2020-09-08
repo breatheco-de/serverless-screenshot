@@ -37,7 +37,7 @@ npm install
 This project uses Serverless for setting up the service. Check the `serverless.yml` for the bucket name, and change it to whatever you want to call it. You can then deploy the stack with:
 
 ```bash
-sls deploy -s dev
+sls deploy
 # ...
 # endpoints:
 #   POST - https://123j6pi123.execute-api.us-east-1.amazonaws.com/dev/screenshots

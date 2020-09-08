@@ -2,7 +2,7 @@ service: lambda-screenshots
 
 custom:
   # change this, so it's unique for your setup
-  bucket_name: ${opt:stage,self:provider.stage}-${env:USER}-screenshots
+  bucket_name: bc-screenshots-vtw67ekm43hj3k4
 
   stageVariables:
     bucketName: ${self:custom.bucket_name}
@@ -12,7 +12,7 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  runtime: nodejs12.x
   stage: dev
   region: us-east-1
 
